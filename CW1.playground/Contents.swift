@@ -12,4 +12,4 @@ var num1 = "8"
 var num2 = 4
 var num3 = 2.5
 
-num3 = Double(num1) ?? 0 + Double(num2) 
+num3 = (Double(num1) ?? 0) + Double(num2)
